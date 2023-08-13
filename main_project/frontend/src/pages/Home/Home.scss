@@ -1,0 +1,104 @@
+@use "../../scss/variables/" as var;
+
+* {
+  background-color: var.$darkGrey;
+  color: var.$lightGrey;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper {
+  padding: 2rem;
+}
+
+.hero-img {
+  padding: 0.5rem;
+}
+
+.sections-wrapper {
+  padding: 2rem;
+  display: flex;
+
+  .restaurant-section {
+    border-right: solid 2px var.$mediumGrey;
+    max-width: 30vw;
+    display: inline;
+    justify-content: space-around;
+    padding: 1rem;
+
+    h2 {
+      padding-bottom: 4px;
+      text-decoration: underline;
+      text-underline-offset: 10px;
+    }
+
+    p {
+      display: inline;
+      padding: 0;
+    }
+
+    span {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      border: none;
+      width: 90%;
+    }
+  }
+
+  .wine-section {
+    max-width: 30vw;
+    display: inline;
+    padding: 1rem;
+
+    h2 {
+      padding-bottom: 4px;
+      text-decoration: underline;
+      text-underline-offset: 10px;
+    }
+
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+}
+
+.eko-section {
+  .circular-img {
+    background-image: url(../../assets/images/IMG_7951.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+  }
+}
+
+.line-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+
+@media (max-width: 768px) {
+  .sections-wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    .restaurant-section,
+    .wine-section {
+      max-width: none;
+    }
+  }
+}

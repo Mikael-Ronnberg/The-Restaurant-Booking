@@ -1,0 +1,21 @@
+.show {
+  display: block;
+}
+
+.not-show {
+  display: none;
+}
+
+.deletePage {
+  max-height: 60vh;
+  margin: 2rem;
+  max-width: 70vw;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteInput {
+  max-width: 20vw;
+}

@@ -1,0 +1,46 @@
+.wrapper{
+    width: 95%
+    }
+    .fields {
+    text-align: left;
+    border: 0;
+    }
+    .radio {
+    font-size: 12px;
+    }
+    
+    
+    .input{
+    cursor: pointer;
+    }
+    
+    
+    .input:hover{
+    color: black;
+    background-color: #b9b9b8;
+    }
+
+    .bookAdminButton{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #b9b9b8;
+    margin:12px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    color: #b9b9b8;
+    text-align:center;
+    transition: all 0.2s;
+    padding: 12px;
+    margin-left: 12px;
+    width: 145px;
+    }
+    .bookAdminButton:hover{
+    color: black;
+    background-color: #b9b9b8;
+    }
+    
+    

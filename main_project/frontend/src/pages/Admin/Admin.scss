@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  }
+  .wrapper{
+  width: 90%;
+  padding:0.35em 1.2em;
+  border:0.1em solid #b9b9b8;
+  margin: 10px 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  }
+  .searchInput {
+  background-repeat: no-repeat;
+  width: 95%;
+  font-size: 16px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  cursor: pointer;
+  }
+  .searchInput:hover{
+  color: black;
+  background-color: #b9b9b8;
+  }
+  
+  
+  .searchButton{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #b9b9b8;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  font-size: 16px;
+  color: #b9b9b8;
+  text-align:center;
+  transition: all 0.2s;
+  padding: 12px;
+  margin-left: 12px;
+  }
+  
+  
+  .searchButton:hover{
+  color: black;
+  background-color: #b9b9b8;
+  }
+
+  
+  .bookinItems {
+  list-style-type: none;
+  padding: 2px;
+  margin: 0;
+  width: 95%;
+  }
+  
+  
+  .item{
+  padding: 8px;
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: left;
+  }
+  .listItem :hover:not(.header) {
+  background-color: #b9b9b8;
+  color: black;
+  }
+  .Item :hover:not(.header) {
+  background-color: #b9b9b8;
+  color: black;
+  }
+  button.itemButton{
+  margin-left:15px;
+  }
+  .itemButtonGroup{
+  display:flex;
+  justify-content: flex-end;
+  }
+  .modal-overlay {
+  z-index: 9999;
+  width: 100%;
+  height: 2500px;
+  position: absolute;
+  top: 140px;
+  background:rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .modal-box {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #242526;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  width: 60%;
+  height: 58%;
+  padding: 1rem;
+  border-radius: 1rem;
+  }
+  .modal-close-button {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #242526;
+  cursor: pointer;
+  border: none;
+  }
+  
+  

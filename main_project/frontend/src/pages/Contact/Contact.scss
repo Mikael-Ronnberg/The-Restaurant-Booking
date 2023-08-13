@@ -1,0 +1,78 @@
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.opening-hours-container,
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+
+  > div {
+    text-align: center;
+    padding: 10px;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+.opening-hours-day {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+}
+.opening-hours-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  > div {
+    text-align: center;
+    padding: 10px;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.taste-of-france-text {
+  margin: 0 10px;
+
+}
