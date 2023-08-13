@@ -1,0 +1,4 @@
+exports.tableStatus = {
+  FIRST_SITTING: "FIRST_SITTING",
+  SECOND_SITTING: "SECOND_SITTING",
+};
